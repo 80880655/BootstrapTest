@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <!--2018/3/15:
+      1.设置浏览器的兼容模式版本，让IE使用最新的渲染引擎工作
+      2.页面的视口可以通过 meta标签进行设置， 语句为： meta name="viewport" 
+      -->
+    <meta http-equiv="X-UA-Compatible" content="IE=IE7">
+    	
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>传智博客</title>
+
+    <!-- 2018/3/15 引入Bootstrop 核心样式表文件 -->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="lib/Bootstrap3.3.7/css/bootstrap.css">
+    
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+    <!-- 2018/3/15 如果当前浏览器版本小于IE9 ，程序就会加载以下src条件。如果条件不满足时，就会当做注释忽略掉 -->
+
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- 2018/3/15 自己写的Link样式和js都是放置在head标签的最下面，如果放置在Bootstrop 的 link上面，可能会出现覆盖样式的情况。
+    所以都需要放置在head标签的最下面 -->
+
+    <!-- <link rel="stylesheet"  href="css/"> -->
+
+    <style >
+      .container{
+        height: 1000px;
+        background-color: #f40;
+      }
+    </style>
+
+
+  </head>
+  <body>
+    <h1>Hello world! </h1>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+
+
+    <!-- 2018/3/15 Bootstrap 的所有JS组件都是依赖JQUERY的 -->
+    
+
+    
+    <div class="container">
+
+      <button type="button" class="btn btn-default btn-lg">Bootstrap样式</button>
+
+      </br>
+
+      <button type="button">iE默认按钮</button>
+
+    </div>
+
+
+
+    <script scr="lib//jquery/jquery-3.3.1.min.js"></script>
+    <script scr="lib/Bootstrap3.3.7/js/bootstrap.js"></script>
+    <script scr="js/main.js"></script>
+
+  </body>
+</html>
+
+
